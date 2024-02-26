@@ -1,0 +1,117 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Jon Yard
+email: jtyard@jonyard.com
+description: "" #>- # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jon_yard
+github_username:  jtyard
+linkedin_username: jonyard
+
+
+# Build settings
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-scholar
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+minima:
+  skin: solarized-dark
+  social_links:
+    - platform: github
+      user_url: "https://www.github.com/jtyard"
+    - platform: linkedin
+      user_url: "https://www.linkedin.com/in/jonyard"
+   # - platform: twitter
+   #   user_url:  "https://www.twitter.com/jon_yard"
+
+papers:
+  - title: "Quantum Optimization: Potential, Challenges, and the Path Forward"
+    arxiv: "2312.02279"
+    semantic_scholar: "https://www.semanticscholar.org/paper/Quantum-Optimization%3A-Potential%2C-Challenges%2C-and-Abbas-Ambainis/eeafc199057da2dca6ddd98103f3ab2bd4fadb41"
+    journal: ""
+  - title: "Local additivity revisited"
+    arxiv: "2111.11385"
+    journal: "https://doi.org/10.1063/5.0079780" 
+  - title: "Generating ray class fields of real quadratic fields via complex equiangular lines" 
+    arxiv: "1604.06098"
+    journal: "https://doi.org/10.4064/aa180508-21-6" 
+  - title: "A framework for approximating qubit unitaries"
+    arxiv: "1510.03888"
+    journal: "https://patents.google.com/patent/US11113084B2/en"
+  - title: "A framework for exact synthesis"    
+    arxiv: "1504.04350"
+    journal: "https://patents.google.com/patent/US10740689B2/en"
+  - title: "Bulk-edge correspondence in (2+1)D-dimensional Abelian topological phases"
+    arxiv: "1310.5708"
+    journal: "https://doi.org/10.1103/PhysRevB.89.115116"
+  - title: "Quantum communication with Gaussian channels of zero quantum capacity"
+    arxiv: "1102.4580"
+    journal: "https://doi.org/10.1038/nphoton.2011.203"
+  - title: "Faithful squashed entanglement"
+    arxiv: "1010.1750"
+    journal: "https://doi.org/10.1007/s00220-011-1302-1"
+  - title: "Quantum communication with zero-capacity channels"
+    arxiv: "0807.4935"
+    journal: "https://doi.org/10.1126/science.1162242"
+  - title: "Optimal quantum source coding with quantum side information at the encoder and decoder"
+    arxiv: "0706.2907"
+    journal: "https://doi.org/10.1109/TIT.2009.2030494"
+  - title: "Exact cost of redistributing multipartite quantum states"
+    arxiv: "quant-ph/0612050"
+    journal: "https://doi.org/10.1103/PhysRevLett.100.230501"
+  - title: "Quantum broadcast channels"
+    arxiv: "quant-ph/0603098"
+    journal: "https://doi.org/10.1109/TIT.2011.2165811"
+  - title: "A decoupling approach to the quantum capacity"
+    arxiv: "quant-ph/0702005"
+    journal: "https://doi.org/10.1142/S1230161208000043"
+  - title: "The Jones polynomial: quantum algorithms and applications to quantum complexity theory"
+    arxiv: "quant-ph/0603069"
+    journal: "https://doi.org/10.26421/QIC8.1-2-10"
+  - title: "Dynamics of a quantum reference frame"
+    arxiv: "quant-ph/0612126"
+    journal: "https://doi.org/10.1088/1367-2630/9/5/156"
+  - title: "Capacity theorems for quantum multiple access channels"
+    arxiv: "quant-ph/0501045"
+    journal: "https://doi.org/10.1109/TIT.2008.924665"
