@@ -6,7 +6,10 @@ layout: home
 title: ""
 ---
 
-I work on the foundations of quantum information theory and its scientific applications. My research interests include
+I work on the foundations of quantum information theory and its scientific applications. 
+
+## Research interests
+
 - Quantum Shannon theory, quantum error correction and fault-tolerant quantum computing
 - Computational number theory, algebraic geometry and the arithmetic of quantum circuits
 - Algorithms, optimization and computational complexity theory
