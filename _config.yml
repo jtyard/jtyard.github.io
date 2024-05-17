@@ -66,6 +66,8 @@ minima:
    #   user_url:  "https://www.twitter.com/jon_yard"
 
 papers:
+  - title: "Multi-qutrit exact synthesis"
+    arxiv: "2405.08147"
   - title: "Quantum Optimization: Potential, Challenges, and the Path Forward"
     arxiv: "2312.02279"
     semantic_scholar: "https://www.semanticscholar.org/paper/Quantum-Optimization%3A-Potential%2C-Challenges%2C-and-Abbas-Ambainis/eeafc199057da2dca6ddd98103f3ab2bd4fadb41"
