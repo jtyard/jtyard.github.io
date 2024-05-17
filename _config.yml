@@ -68,6 +68,7 @@ minima:
 papers:
   - title: "Multi-qutrit exact synthesis"
     arxiv: "2405.08147"
+    semantic_scholar: ""
     journal: ""
   - title: "Quantum Optimization: Potential, Challenges, and the Path Forward"
     arxiv: "2312.02279"
