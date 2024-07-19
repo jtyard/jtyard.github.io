@@ -18,4 +18,4 @@ which installs it via [ruby-build](https://github.com/rbenv/ruby-build), which i
 bundle install
 bundle exec jekyll serve
 ```
-and it will update the html in real time as you changes of markdown files etc while serving the site to localhost.   
+and it will update the html in real time as you change markdown files etc while continually serving the site to localhost.   
