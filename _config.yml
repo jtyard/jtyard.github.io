@@ -58,12 +58,12 @@ plugins:
 minima:
   skin: solarized-dark
   social_links:
-    - platform: github
-      user_url: "https://www.github.com/jtyard"
-    - platform: linkedin
-      user_url: "https://www.linkedin.com/in/jonyard"
-   # - platform: twitter
-   #   user_url:  "https://www.twitter.com/jon_yard"
+    - title: GitHub
+      icon: github
+      url: "https://github.com/jtyard"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/jonyard"
 
 papers:
   - title: "Buildings for synthesis with Clifford+R"

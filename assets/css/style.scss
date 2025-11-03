@@ -1,0 +1,215 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize"
+;
+
+/* QuScript color palette */
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --border: #30363d;
+  --text: #c9d1d9;
+  --text-bright: #f0f6fc;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-hover: #79c0ff;
+  --success: #3fb950;
+  --warning: #d29922;
+}
+
+/* Import Nunito font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+
+/* Override minima theme styles */
+body {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif !important;
+  line-height: 1.6;
+}
+
+/* Header */
+.site-header {
+  background-color: var(--surface) !important;
+  border-top: none !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--accent) !important;
+}
+
+.site-title:hover {
+  color: var(--accent-hover) !important;
+}
+
+.site-nav .page-link {
+  color: var(--text) !important;
+}
+
+.site-nav .page-link:hover {
+  color: var(--accent-hover) !important;
+}
+
+/* Main content */
+.page-content {
+  background-color: var(--bg);
+}
+
+.wrapper {
+  max-width: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text) !important;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  color: var(--accent) !important;
+}
+
+p {
+  color: var(--text);
+}
+
+/* Links */
+a {
+  color: var(--accent) !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover) !important;
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--accent) !important;
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--surface) !important;
+  border-top: 1px solid var(--border) !important;
+  color: var(--text-muted) !important;
+}
+
+.footer-heading {
+  color: var(--text) !important;
+}
+
+.contact-list a,
+.social-media-list a {
+  color: var(--accent) !important;
+}
+
+.contact-list a:hover,
+.social-media-list a:hover {
+  color: var(--accent-hover) !important;
+}
+
+/* Code blocks */
+pre,
+code {
+  background-color: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+  border-radius: 8px;
+}
+
+pre {
+  padding: 1rem;
+}
+
+code {
+  padding: 0.2em 0.4em;
+}
+
+/* Lists */
+ul, ol {
+  color: var(--text);
+}
+
+li {
+  color: var(--text);
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border: 1px solid var(--border);
+}
+
+th {
+  background-color: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.5rem;
+}
+
+td {
+  border: 1px solid var(--border);
+  padding: 0.5rem;
+  color: var(--text);
+}
+
+/* Post list */
+.post-list > li {
+  border-bottom: 1px solid var(--border);
+}
+
+.post-link {
+  color: var(--accent) !important;
+}
+
+.post-link:hover {
+  color: var(--accent-hover) !important;
+}
+
+.post-meta {
+  color: var(--text-muted) !important;
+}
+
+/* Images */
+img {
+  border-radius: 4px;
+}
+
+/* Buttons (if any) */
+button,
+.button {
+  background-color: var(--accent);
+  color: var(--bg);
+  border: none;
+  border-radius: 8px;
+  padding: 0.875rem 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover,
+.button:hover {
+  background-color: var(--accent-hover);
+}
+
+/* SVG icons */
+.svg-icon {
+  fill: var(--accent) !important;
+}
+
+.svg-icon:hover {
+  fill: var(--accent-hover) !important;
+}
+
+/* Hide RSS feed icon */
+.social-media-list a[href*="feed.xml"] {
+  display: none !important;
+}
