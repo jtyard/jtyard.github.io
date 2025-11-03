@@ -66,6 +66,10 @@ minima:
    #   user_url:  "https://www.twitter.com/jon_yard"
 
 papers:
+  - title: "Buildings for synthesis with Clifford+R"
+    arxiv: "2510.11526"
+    semantic_scholar: ""
+    journal: "" 
   - title: "Multi-qutrit exact synthesis"
     arxiv: "2405.08147"
     semantic_scholar: ""
