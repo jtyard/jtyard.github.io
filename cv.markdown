@@ -5,10 +5,10 @@ permalink: /cv/
 ---
 
 ### Faculty positions
-
+- Adjunct Associate Professor, [Combinatorics and Optimization](https://uwaterloo.ca/combinatorics-and-optimization/), [University of Waterloo](https://uwaterloo.ca/)
 - Associate Professor, [Combinatorics and Optimization](https://uwaterloo.ca/combinatorics-and-optimization/), [University of Waterloo](https://uwaterloo.ca/)
-- Faculty, [Institute for Quantum Computing](https://uwaterloo.ca/institute-for-quantum-computing), [University of Waterloo](https://uwaterloo.ca/)
-- Associate Faculty, [Perimeter Institute for Theoretical Physics](https://perimeterinstitute.ca/)
+    - Faculty, [Institute for Quantum Computing](https://uwaterloo.ca/institute-for-quantum-computing), [University of Waterloo](https://uwaterloo.ca/)
+    - Associate Faculty, [Perimeter Institute for Theoretical Physics](https://perimeterinstitute.ca/)
 
 
 ### Postdocs
