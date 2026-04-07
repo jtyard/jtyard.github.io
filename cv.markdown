@@ -4,14 +4,13 @@ title: CV
 permalink: /cv/
 ---
 
-### Faculty positions
-- Adjunct Associate Professor, [Combinatorics and Optimization](https://uwaterloo.ca/combinatorics-and-optimization/), [University of Waterloo](https://uwaterloo.ca/)
+### Former Faculty
 - Associate Professor, [Combinatorics and Optimization](https://uwaterloo.ca/combinatorics-and-optimization/), [University of Waterloo](https://uwaterloo.ca/)
-    - Faculty, [Institute for Quantum Computing](https://uwaterloo.ca/institute-for-quantum-computing), [University of Waterloo](https://uwaterloo.ca/)
-    - Associate Faculty, [Perimeter Institute for Theoretical Physics](https://perimeterinstitute.ca/)
+- Faculty, [Institute for Quantum Computing](https://uwaterloo.ca/institute-for-quantum-computing)
+- Associate Faculty, [Perimeter Institute for Theoretical Physics](https://perimeterinstitute.ca/)
 
 
-### Postdocs
+### Research
 
 - [Microsoft Research](https://microsoft.com/research/) [Station Q](https://news.microsoft.com/stories/stationq/) and [QuArC (Quantum Architecture and Computation group)](https://microsoft.com/quantum/)
 - [Los Alamos National Laboratory](https://quantum.lanl.gov/) Feynman Fellow
