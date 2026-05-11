@@ -4,6 +4,9 @@ title: CV
 permalink: /cv/
 ---
 
+### Current 
+- CEO, [QuScript Inc.](https://quscript.com)
+
 ### Former Faculty
 - Associate Professor, [Combinatorics and Optimization](https://uwaterloo.ca/combinatorics-and-optimization/), [University of Waterloo](https://uwaterloo.ca/)
 - Faculty, [Institute for Quantum Computing](https://uwaterloo.ca/institute-for-quantum-computing)
