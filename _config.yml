@@ -66,6 +66,10 @@ minima:
       url: "https://www.linkedin.com/in/jonyard"
 
 papers:
+  - title: "Arithmetic for quantum circuits (draft)"
+    arxiv: ""
+    semantic_scholar: ""
+    journal: "https://jonyard.com/Algebras.pdf"
   - title: "Buildings for synthesis with Clifford+R"
     arxiv: "2510.11526"
     semantic_scholar: ""
