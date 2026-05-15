@@ -19,5 +19,5 @@ I work on the foundations of quantum information theory and its scientific appli
 ## Select publications
 
 {% for paper in site.papers -%}
-- {% if paper.journal != "" %}[{{paper.title}}]({{paper.journal}}) {% else %} {{paper.title}} {% endif %} - [![arXiv](/png/arXiv.png){:width="12px" height=12px"}](https://arxiv.org/abs/{{paper.arxiv}})
+- {% if paper.journal != "" %}[{{paper.title}}]({{paper.journal}}) {% else %} {{paper.title}} {% endif %}{% if paper.arxiv != "" %} - [![arXiv](/png/arXiv.png){:width="12px" height=12px"}](https://arxiv.org/abs/{{paper.arxiv}}){% endif %}
 {% endfor %}
