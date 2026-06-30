@@ -73,7 +73,7 @@ papers:
   - title: "Buildings for synthesis with Clifford+R"
     arxiv: "2510.11526"
     semantic_scholar: ""
-    journal: "" 
+    journal: "https://qplconference.org/program/" 
   - title: "Multi-qutrit exact synthesis"
     arxiv: "2405.08147"
     semantic_scholar: ""
